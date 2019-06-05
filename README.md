@@ -5,7 +5,7 @@ curl -X POST https://textita.com/text \
        --data-urlencode phone='9087938341' \
        --data-urlencode message='Hello world' \
        -d key=textita
-       ```
+```
        
        
 # Python

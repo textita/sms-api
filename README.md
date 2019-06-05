@@ -1,7 +1,7 @@
-Send a sms text message with a http request
+# Send a sms text message with a http request
 
-try out the [SMS API](https://textita.com)
-[
+# try out the [SMS API](https://textita.com) at textita.com
+
 
 # curl
 

@@ -1,6 +1,9 @@
+
+### SMS API 
+
 ### Send a sms text message with a http request
 
-### try out the [SMS API](https://textita.com) at textita.com
+### Try out the [SMS API](https://textita.com) for FREE at textita.com
 
 
 

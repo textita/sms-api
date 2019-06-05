@@ -10,15 +10,19 @@ curl -X POST https://textita.com/text \
        
 # Python
 
+```
  import requests
       requests.post('https://textita.com/text', {
         'phone': '9087938341',
         'message': 'Hello world',
         'key': 'textita',
       })
+```      
+      
       
 # Ruby
 
+```
 require 'net/http'
       require 'uri'
 
@@ -28,9 +32,11 @@ require 'net/http'
         :message => 'Hello world',
         :key => 'textita',
       })
-      
+```
+
 # Node.js
 
+```
 var request = require('request');
 
 request.post('https://textita.com/text', {
@@ -46,10 +52,11 @@ request.post('https://textita.com/text', {
   }
   console.log(JSON.parse(body));
 })
-       
+```       
        
  # PHP
  
+``` 
  $ch = curl_init('https://textita.com/text');
 $data = array(
   'phone' => '9087938341',
@@ -64,7 +71,11 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 curl_close($ch);
 
+```
+
 # C#
+
+```
 
 using System;
 using System.Collections.Specialized;
@@ -81,7 +92,11 @@ using (WebClient client = new WebClient())
   string result = System.Text.Encoding.UTF8.GetString(response);
 }
 
+```
+
 # Java
+
+```
 
 final NameValuePair[] data = {
     new BasicNameValuePair("phone", "9087938341"),
@@ -96,7 +111,11 @@ HttpResponse httpResponse = httpClient.execute(httpPost);
 String responseString = EntityUtils.toString(httpResponse.getEntity());
 JSONObject response = new JSONObject(responseString);
 
+```
+
 # Powershell
+
+```
 
 $body = @{
   "phone"="9087938341"
@@ -104,4 +123,6 @@ $body = @{
   "key"="textita"
 }
 $submit = Invoke-WebRequest -Uri https://textita.com/text -Body $body -Method Post
+
+```
 

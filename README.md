@@ -133,3 +133,21 @@ $submit = Invoke-WebRequest -Uri https://textita.com/text -Body $body -Method Po
 
 ```
 
+# Golang
+
+```
+import (
+  "net/http"
+  "net/url"
+)
+
+func main() {
+  values := url.Values{
+    "phone": {"9087938341"},
+    "message": {"Hello world"},
+    "key": {"textita"},
+  }
+
+  http.PostForm("https://textita.com/text", values)
+}
+```

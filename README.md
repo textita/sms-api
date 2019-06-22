@@ -3,7 +3,7 @@
 
 ### Send a sms text message with a http request
 
-### Try out the [SMS API](https://textita.com) for FREE at textita.com
+### Try out the [twilio alternative](https://textita.com) for FREE at textita.com
 
 
 
